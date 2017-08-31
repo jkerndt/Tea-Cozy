@@ -76,7 +76,7 @@ header {
   justify-content: center;
 }
 .options {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 .options img {
@@ -89,13 +89,13 @@ header {
   justify-content: center;
 }
 .fall-berry {
-  margin-left: 400px;
+  margin-left: 440px;
 }
 .donuts {
-  margin-right: 400px;
+  margin-right: 300px;
 }
 .myrtle {
-  margin-left: 575px;
+  margin-left: 615px;
 }
 .bedford {
   margin-right: 575px;
@@ -118,11 +118,6 @@ header {
   margin: 40px;
 }
 .locations {
-  display: flex;
-  justify-content: center;
-
-}
-h2 {
   display: flex;
   justify-content: center;
 }
