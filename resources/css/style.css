@@ -6,6 +6,7 @@ body {
   opacity: 0.9;
   text-align: center;
   display: block;
+  width: 100%
 }
 div {
   display: block;
@@ -17,6 +18,7 @@ header nav {
   display: block;
   justify-content: flex-end;
   padding-right: 10px;
+  z-index: 10;
 }
 nav span {
   padding: 5px;
@@ -29,8 +31,8 @@ nav span {
   padding-left: 10px;
   display: flex;
   align-items: center;
-  height: auto;
-  width: auto;
+  height: 50px;
+  z-index: 10;
 }
 header {
   height: 69px;
@@ -40,6 +42,8 @@ header {
   width: 100%;
   align-items: center;
   background-color: black;
+  justify-content: space-between;
+  z-index: 10;
 }
 .content {
   display: block;
@@ -51,7 +55,7 @@ header {
   align-items: center;
 }
 .title {
-  display: flex;
+  display: block;
   background-color: black;
   align-items: center;
   justify-content: center;
@@ -102,17 +106,43 @@ header {
   width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 50px;
 }
 .address {
   display: inline-block;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: black;
-  padding: 50px;
+  width: 300px;
   opacity: 1;
+  margin: 40px;
 }
-.loc {
+.locations {
+  display: flex;
+  justify-content: center;
 
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+.info {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.info {
+  display: block;
+  justify-content: center;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
