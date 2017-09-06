@@ -101,8 +101,9 @@ header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  display: flex;
+  display: block;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
 }
 .locations {
@@ -110,7 +111,7 @@ header {
   justify-content: center;
 }
 .addresses {
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
